@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class AutoApp {
     public static void main(String[] args) throws Exception {
+          // Jere Nuutinen kävi tarkistamassa koodin ja hienoa on!
+          System.out.println("Hienoa koodia");
         Auto auto1 = new Auto("BMW", "Z4", 40);
         Auto auto2 = new Auto ("Audi", "A4", 55);
 
@@ -15,7 +17,7 @@ public class AutoApp {
         System.out.println();
         auto2.NaytaTiedot();
 
-        
+       
     }
 } //AutoApp class ends
 
