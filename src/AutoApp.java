@@ -13,6 +13,8 @@ public class AutoApp {
         System.out.println();
         auto1.Tankkaa();
         System.out.println();
+        auto1.Huolla();
+        System.out.println();
         auto1.NaytaTiedot();
         System.out.println();
         auto2.NaytaTiedot();
@@ -74,4 +76,9 @@ class Auto{
         System.out.println("Auton malli: " + malli);
         System.out.println("Bensan määrä: " + bensanMaara);
     }
+
+    public void Huolla() { // Henri Uusitalo lisasi koodia
+        System.out.println("Öljyt vaihdettu! Seuraava huolto 10000 kilometrin päästä.");
+    }
+
 }
